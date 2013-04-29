@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 568px) {
+	#container, #sidebar, #content {
+		width: 400px;
+	}
+	
+        .header{
+            width: 120px;
+            height: 200px;
+            color: red;
+        }
+        
+        .avatar{
+            width:200px;
+        }
+        .body
+        {
+            width: 100px;
+        }
+        
+        .footer{
+            width: 400px;
+        }
+        
+	.judulkat
+        {
+            width: 100px;
+        }
+        
+        .data{
+            width: 500px;
+        }
+        
+        .register{
+            width: 500px;
+            margin-left: 5px;
+        }
+        .login{
+            width: 500px;
+            
+            margin-left: 5px;
+        }
+}

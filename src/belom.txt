@@ -1,8 +1,0 @@
-belom :
-
-.validasi attachment
-.validasi tanggal
-.validasi input tag
-.misahin css ke satu file
-
-arie: yg belum profil sama datepicker

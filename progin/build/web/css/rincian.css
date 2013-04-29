@@ -1,0 +1,249 @@
+body {
+	background-image: url('../images/bg.jpg');
+	background-size:cover;
+	overflow : hidden;
+}
+a:link {color:#FFF;}      /* unvisited link */
+a:visited {color:#FFF;}  /* visited link */
+a:hover {color:#000;}  /* mouse over link */
+a:active {color:#000;}  /* selected link */ 
+.header {
+	height: 80px;
+	width: 100%;
+	margin-left: 12%;
+	color: #fff;
+	font-family: 'Skranji', cursive;
+	font-size: 28px;
+}
+.footer {
+	height: 70px;
+	width: 60%;
+	background-color: #09F;
+	margin-left: 20%;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+.fitur {
+	width : 400px;
+	height: 400px;
+	float :left;
+	margin-left:8%;
+	margin-top: 103px;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+.container {
+	height: 100%;
+	overflow:hidden;
+	width: 100%;
+	background-color: transparent;
+	line-height: 1em;
+	font-family: 'Skranji', cursive;
+}
+.foto {
+	height : 200px;
+	width: 200px;
+	float:left;
+	margin-left : 100px;
+}
+
+.data {
+	padding : 10px;
+	height: 100%;
+	overflow:hidden;
+	width : 30%;
+	float :left;
+	margin-left:10%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #3CF;
+	color: #000;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+.assignment {
+	height: 100%;
+	overflow:hidden;
+	width: 45%;
+    font-size:20px;
+	line-height: 2em;
+	float:left;
+	padding: 5px;
+	margin-top: 30px;
+	margin-bottom:10px;
+	margin-left:5%;
+	background-color: #3CF;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+
+.login {
+	padding-left : 10px;
+	padding-right : 10px;
+	padding-bottom : 10px;
+	height: 100%;
+	overflow:hidden;
+	width : 30%;
+	float :left;
+	margin-left:65%;
+	margin-top: -586px;
+	margin-bottom: 10px;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+	font-family: 'Skranji', cursive;
+	font-size: 14px;
+}
+.register {
+	padding : 10px;
+	height: 100%;
+	width : 30%;
+	margin-top:110px;
+	margin-left:65%;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+	font-family: 'Skranji', cursive;
+	font-size: 14px;
+}
+.rincian {
+	width: 30%;
+	height:500px;
+	margin-left: 5%;
+	margin-bottom: 15px;
+	background-color: #3CF;
+	padding-right: 5%;
+	line-height: 1.5em;
+	padding-left: 5%;
+	float:left;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+.tambah {
+	margin:20px;
+	margin-left: 35%;
+	width: 30%;
+	padding: 15px;
+	background-color: #3CF;
+	padding-top: 10px;
+	height: 300px;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+.kategori {
+	margin:20px;
+	margin-left: 10%;
+	width: 80%;
+	padding: 15px;
+	background-color: #3CF;
+	font-family: 'Merienda', cursive;
+	padding-top: 10px;
+	height: 330px;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+.judul {
+	font-family: 'Merienda', cursive;
+}
+.judulkat {
+	width: 240px; 
+	height: 20px; 
+	font-family: 'Skranji', cursive;
+}
+.genap {
+	background-color: #008080;
+	font-size:12px;
+}.ganjil {
+	background-color: #00CED1;
+	font-size:12px;
+}
+.comment{
+	background-color: #3CF;
+	width: 40%;
+	margin-left: 5%;
+	padding: 10px;
+	font-size:12px;
+	height: 480px;
+	float: left;
+	overflow:hidden;
+	line-height:2em;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+h1{
+	text-shadow: 5px 5px 5px #33CCFF;
+} 
+.avatar{
+	width:120px;
+	height:100px;
+	padding-left:5px;
+	padding-right:10px;
+	float :left;
+}
+.colmid{
+   position: relative;
+   width: 100%;
+   background-color: #66ccff
+}
+.colleft{
+   position: relative;
+   width: 100%;
+   background-color: #66ccff
+}
+.col1{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 66%;
+}
+.col2{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 27%;
+}
+.col3{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width:6%;
+}
+input[type="text"]
+{
+width:150px;
+}
+
+input[type="password"]
+{
+width:150px;
+}
+
+/*TUBES 2*/
+.header form {
+    float:left;
+    margin:2px;
+}
+.header a {
+    float:left;
+    margin:2px;
+}
+.header h6 {
+    float:left;
+    margin:2px;
+}
+.header img {
+    float:left;
+    margin:2px;
+}
+.header p {
+    float:left;
+    margin:2px;
+}
